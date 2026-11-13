@@ -68,3 +68,6 @@ desktop.ini
 !.vscode/settings.json
 !.vscode/extensions.json
 !.vscode/launch.json
+
+# ===== Notas personales (versiones comentadas de los shaders) =====
+/notas/
