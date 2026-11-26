@@ -11,7 +11,7 @@ public static class CinematicBuilder
     const string ZombunnyMatPath = "Assets/Zombunny/ZombunnyMat.mat";
     const string BlackHoleMatPath = "Assets/Cinematic/BlackHolePlaceholder.mat";
     const float ZombunnyHeight = 1.2f;
-    const float BridgeSag = 0.4f;
+    const float BridgeSag = 0.86f;
 
     static Terrain terrain;
 
