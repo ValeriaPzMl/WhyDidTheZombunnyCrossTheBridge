@@ -8,13 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ZombunnyMat
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 909f3313e14fb87d6a9ec617de998838, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _EMISSION
   - _NORMALMAP
-  m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -53,6 +53,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 9bfb618b533dc42f5a73ee7d0c587ba4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -63,24 +67,55 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Absorption: 1.684
+    - _AmbientIntensity: 1.448
+    - _Anisotropy: 0.833
     - _BumpScale: 1
+    - _Coverage: 0.907
     - _Cutoff: 0.5
+    - _Density: 3.8
     - _DetailNormalMapScale: 1
+    - _DetailScale: 0.1538
+    - _DetailStrength: 0.667
+    - _DiskBrightness: 2.5
+    - _DiskDensity: 1.4
+    - _DiskInner: 0.3
+    - _DiskOuter: 0.85
+    - _DiskSpeed: 0.6
+    - _Doppler: 0.7
     - _DstBlend: 0
+    - _EdgeFade: 92.2
+    - _EventHorizon: 0.12
     - _GlossMapScale: 1
     - _Glossiness: 0.3
     - _GlossyReflections: 1
+    - _LensStrength: 1.5
+    - _LightAbsorption: 1.423
+    - _LightIntensity: 3.75
+    - _LightSteps: 13.94
+    - _MacroScale: 0.01321
     - _Metallic: 0
     - _Mode: 0
+    - _NoiseScale: 8
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Separation: 0.802
+    - _ShapeScale: 0.041
+    - _SilverIntensity: 0.86
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Steps: 73.4
+    - _TempInner: 12000
+    - _TempOuter: 2500
     - _UVSec: 0
+    - _VerticalScale: 2.431
     - _ZWrite: 1
     m_Colors:
+    - _AmbientColor: {r: 0.52, g: 0.64, b: 0.82, a: 1}
+    - _CloudColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Wind: {r: 0.004, g: 0, b: 0.002, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

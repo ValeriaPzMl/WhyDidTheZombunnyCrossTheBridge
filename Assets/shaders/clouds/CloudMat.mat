@@ -32,20 +32,20 @@ Material:
     - _Absorption: 0.55
     - _AmbientIntensity: 0.65
     - _Anisotropy: 0.65
-    - _Coverage: 0.48
+    - _Coverage: 0.872
     - _Density: 1.8
-    - _DetailScale: 0.045
-    - _DetailStrength: 0.55
+    - _DetailScale: 0.0664
+    - _DetailStrength: 0
     - _EdgeFade: 45
     - _LightAbsorption: 0.75
     - _LightIntensity: 1.6
     - _LightSteps: 6
-    - _MacroScale: 0.0025
+    - _MacroScale: 0.00363
     - _Separation: 0.6
-    - _ShapeScale: 0.011
+    - _ShapeScale: 0.0195
     - _SilverIntensity: 0.65
     - _Steps: 64
-    - _VerticalScale: 1.6
+    - _VerticalScale: 2.961
     m_Colors:
     - _AmbientColor: {r: 0.52, g: 0.64, b: 0.82, a: 1}
     - _CloudColor: {r: 1, g: 1, b: 1, a: 1}

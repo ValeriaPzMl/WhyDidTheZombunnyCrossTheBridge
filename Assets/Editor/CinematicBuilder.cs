@@ -75,7 +75,7 @@ public static class CinematicBuilder
 
         var anchors = Child(root.transform, "CameraAnchors", Vector3.zero);
         var bridgeFocus = Child(anchors, "BridgeFocus", new Vector3(0f, g + 1.5f, 0f));
-        var a1From = Child(anchors, "Cam1_GruaInicio", new Vector3(-45f, GroundAt(-45f, 55f) + 22f, 55f));
+        var a1From = Child(anchors, "Cam1_GruaInicio", new Vector3(-45f, GroundAt(-45f, 55f) + 85f, 55f));
         var a1To = Child(anchors, "Cam1_GruaFin", new Vector3(-48f, GroundAt(-48f, 30f) + 4f, 30f));
         var behind = Child(zombunny.transform, "Cam_Detras", new Vector3(0f, 1.8f, -4.5f));
         var side = Child(zombunny.transform, "Cam_Lado", new Vector3(3.5f, 1.1f, 0.5f));
@@ -162,7 +162,7 @@ public static class CinematicBuilder
         follower.waypoints.Add(new PathFollower.Waypoint { point = point, time = time, snapToGround = snap });
     }
 
-    static GameObject BuildZombunny(GameObject modelAsset, Transform parent)
+    public static GameObject BuildZombunny(GameObject modelAsset, Transform parent)
     {
         var root = new GameObject("Zombunny");
         root.transform.SetParent(parent, false);

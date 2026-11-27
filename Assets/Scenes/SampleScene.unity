@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c56e28e54cac24b04ae3dd957d214534, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1301,7 +1301,7 @@ Transform:
   m_GameObject: {fileID: 1210531931}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45, y: 22, z: 55}
+  m_LocalPosition: {x: -45, y: 95, z: 55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1399,7 +1399,7 @@ Transform:
   m_GameObject: {fileID: 1549842705}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.176798, y: 0.6, z: 0.3}
+  m_LocalPosition: {x: 18.176798, y: 10.600611, z: 0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1700,7 +1700,7 @@ Transform:
   m_GameObject: {fileID: 1746601950}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.176798, y: 3, z: -6}
+  m_LocalPosition: {x: 18.176798, y: 13.00061, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1715,6 +1715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1760885916}
+  - component: {fileID: 1760885917}
   m_Layer: 0
   m_Name: Visual
   m_TagString: Untagged
@@ -1722,6 +1723,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1760885917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760885915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 313110ab904d54d4e847a4a78a3935a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  strandMaterial: {fileID: 2100000, guid: 68c59421c5d8b4c3199a50a42d2898b4, type: 2}
+  strandCount: 60000
+  segments: 8
+  length: 0.08
+  lengthVariation: 0.4
+  gravity: 0.6
+  clumpSize: 0.1
+  clumpStrength: 0.35
+  curl: 0.3
+  seed: 1
+  animate: 1
+  stiffness: 14
+  damping: 0.35
+  motionAmount: 1.2
+  maxStretch: 0.8
 --- !u!4 &1760885916
 Transform:
   m_ObjectHideFlags: 0
@@ -2224,7 +2252,7 @@ Transform:
   m_GameObject: {fileID: 2024971620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48, y: 4, z: 30}
+  m_LocalPosition: {x: -48, y: 16.660099, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2255,7 +2283,7 @@ Transform:
   m_GameObject: {fileID: 2032491811}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.176798, y: 3.5, z: -3.5}
+  m_LocalPosition: {x: 20.176798, y: 13.50061, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

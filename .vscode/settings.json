@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "WhyDidTheZombunnyCrossTheBridge.sln"
+    "dotnet.defaultSolution": "GA_FinalProject.sln"
 }
